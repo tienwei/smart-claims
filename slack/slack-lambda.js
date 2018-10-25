@@ -2,7 +2,7 @@ const https = require('https');
 
 exports.handler = (event, context, callback) => {
   const payload = JSON.stringify({
-    text: `Message sent by ${event.name} (${event.email}):\n ${event.message}`,
+    text: `Claim made by ${event.name} (${event.email}):\n ${event.message}`,
   });
 
   const options = {
