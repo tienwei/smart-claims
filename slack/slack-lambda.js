@@ -2,8 +2,8 @@ const https = require('https');
 
 exports.handler = (event, context, callback) => {
   const payload = JSON.stringify({
-    text: `Claim made by ${event.name}\n Constact details: (${event.email}):\n 
-    ${event.message}`,
+    text: `Claim made by ${event.name}\n Constact details: (${event.email})
+    Claim details: ${event.claim}`,
   });
 
   const options = {
