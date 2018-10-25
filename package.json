@@ -1,0 +1,22 @@
+{
+  "name": "smart-claims",
+  "version": "1.0.0",
+  "description": "Claims using Alexia Echo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tienwei/smart-claims.git"
+  },
+  "keywords": [
+    "Echo"
+  ],
+  "author": "Tien,Ann,Mark,Rita,Robert,Steven,Raghu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tienwei/smart-claims/issues"
+  },
+  "homepage": "https://github.com/tienwei/smart-claims#readme"
+}
