@@ -1,14 +1,14 @@
 {
   "deploy_settings": {
     "default": {
-      "skill_id": "amzn1.ask.skill.97a77c9b-336a-4be8-b15e-2eb1eae1a173",
-      "was_cloned": false,
+      "skill_id": "amzn1.ask.skill.1117d8df-71a4-47d6-b42b-2406665c3276",
+      "was_cloned": true,
       "merge": {
         "manifest": {
           "apis": {
             "custom": {
               "endpoint": {
-                "uri": "ask-custom-city-guide-default"
+                "uri": "ask-custom-pet-match-default"
               }
             }
           }
@@ -16,22 +16,22 @@
       },
       "resources": {
         "manifest": {
-          "eTag": "221456f775fcac75f94b546427028a27"
+          "eTag": "f714e885798ee7b769d403a15f0fd220"
         },
         "interactionModel": {
           "en-US": {
-            "eTag": "7c943ca6c5b36303ffb80bd9812543fa"
+            "eTag": "0f51e4414e73c3b45a06858fdf4ab5a4"
           }
         },
         "lambda": [
           {
-            "arn": "arn:aws:lambda:us-east-1:172824733316:function:ask-custom-city-guide-default",
-            "functionName": "ask-custom-city-guide-default",
+            "arn": "arn:aws:lambda:us-east-1:172824733316:function:ask-custom-pet-match-default",
+            "functionName": "ask-custom-pet-match-default",
             "awsRegion": "us-east-1",
             "alexaUsage": [
               "custom/default"
             ],
-            "revisionId": "f81667bb-681f-4852-9100-c81f939a212e"
+            "revisionId": "921786d9-0a81-41ff-91ff-13327d1b69b3"
           }
         ]
       }

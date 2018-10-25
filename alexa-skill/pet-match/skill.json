@@ -3,14 +3,14 @@
     "publishingInformation": {
       "locales": {
         "en-US": {
-          "summary": "Ask an expert for a recommendation on what to do in your city.",
+          "summary": "Find the pet that is just right for you.",
           "examplePhrases": [
-            "Alexa open city guide",
-            "Alexa tell city guide i'm hungry",
-            "Alexa ask city guide to give me an activity"
+            "Alexa open pet match",
+            "Alexa ask pet match for a recommendation",
+            "Alexa tell pet match that I want a big fluffy dog"
           ],
-          "name": "city-guide",
-          "description": "Ask an expert for a recommendation on what to do in your city. You can even ask for tips within a specific distance."
+          "name": "pet-match",
+          "description": "Do you want a pet, but aren't sure what pet would be right for you? Pet Match will find the right pet for you by asking you a series of questions."
         }
       },
       "isAvailableWorldwide": true,

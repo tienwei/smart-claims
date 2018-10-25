@@ -1,14 +1,14 @@
 {
   "deploy_settings": {
     "default": {
-      "skill_id": "amzn1.ask.skill.97a77c9b-336a-4be8-b15e-2eb1eae1a173",
+      "skill_id": "amzn1.ask.skill.86ab95a4-77f1-4d60-b206-b79a0ccf83e6",
       "was_cloned": false,
       "merge": {
         "manifest": {
           "apis": {
             "custom": {
               "endpoint": {
-                "uri": "ask-custom-city-guide-default"
+                "uri": "ask-custom-quiz-game-default"
               }
             }
           }
@@ -16,22 +16,22 @@
       },
       "resources": {
         "manifest": {
-          "eTag": "221456f775fcac75f94b546427028a27"
+          "eTag": "bce5077c6d9622a6b9e4b4ff54d90de6"
         },
         "interactionModel": {
           "en-US": {
-            "eTag": "7c943ca6c5b36303ffb80bd9812543fa"
+            "eTag": "4e9a32bede945e10ef346c6922203cfd"
           }
         },
         "lambda": [
           {
-            "arn": "arn:aws:lambda:us-east-1:172824733316:function:ask-custom-city-guide-default",
-            "functionName": "ask-custom-city-guide-default",
+            "arn": "arn:aws:lambda:us-east-1:172824733316:function:ask-custom-quiz-game-default",
+            "functionName": "ask-custom-quiz-game-default",
             "awsRegion": "us-east-1",
             "alexaUsage": [
               "custom/default"
             ],
-            "revisionId": "f81667bb-681f-4852-9100-c81f939a212e"
+            "revisionId": "cd6a9527-eea1-4d1a-a6da-63f5fe825571"
           }
         ]
       }
