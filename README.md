@@ -3,8 +3,9 @@
 
 ## Technology we use
 
-* AWS Alexa Voice Services
+* Amazon Alexa Skills Kit
 * AWS Lamda Functions
+* Amazon CloudWatch logs
 * Slack Integration
 
 ## Ideas
