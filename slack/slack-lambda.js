@@ -9,7 +9,7 @@ exports.handler = (event, context, callback) => {
   const options = {
     hostname: 'hooks.slack.com',
     method: 'POST',
-    path: `/services/${proccess.env.SLACK_API_TOKEN}`,
+    path: `/services/${process.env.SLACK_API_TOKEN}`,
   };
 
   const req = https.request(options, res =>
