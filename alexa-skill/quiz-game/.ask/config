@@ -1,0 +1,35 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.5d2e45e5-799a-47ca-a918-2d6fdaa35f95",
+      "was_cloned": false,
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "ask-custom-quiz-game-default"
+              }
+            }
+          }
+        }
+      },
+      "resources": {
+        "manifest": {
+          "eTag": "998542fb58300a9545b999da1d914c26"
+        },
+        "lambda": [
+          {
+            "arn": "arn:aws:lambda:us-east-1:172824733316:function:ask-custom-quiz-game-default",
+            "functionName": "arn:aws:lambda:us-east-1:172824733316:function:ask-custom-quiz-game-default",
+            "awsRegion": "us-east-1",
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "revisionId": "1bcb2b8a-0a55-409c-89eb-6a33a1ca2503"
+          }
+        ]
+      }
+    }
+  }
+}
