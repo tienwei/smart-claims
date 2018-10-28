@@ -29,13 +29,13 @@ const data=[
 //TODO: Replace these text strings to edit the welcome and help messages
 //======================================================================================================
 
-const skillName = "Team Lookup";
+const skillName = "smart claim";
 
 //This is the welcome message for when a user starts the skill without a specific intent.
-const WELCOME_MESSAGE = "Welcome to " + skillName + "Learn about Alexa Evangelists and Solutions Architects. For example, " + getGenericHelpMessage(data);
+const WELCOME_MESSAGE = "Welcome to Coles Insurance View and Manage." + getGenericHelpMessage(data);
 
 //This is the message a user will hear when they ask Alexa for help in your skill.
-const HELP_MESSAGE = "I can help you find Alexa Evangelists and Solutions Architects. ";
+const HELP_MESSAGE = "I can help you lodge your claims";
 
 //This is the message a user will hear when they begin a new search
 const NEW_SEARCH_MESSAGE = getGenericHelpMessage(data);
